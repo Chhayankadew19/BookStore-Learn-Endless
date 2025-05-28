@@ -11,6 +11,22 @@ function abouts() {
         </div>
       <Navbar/>
       <About/>
+      <div>
+            `
+        </div>
+        <div>
+            `
+        </div>
+        <div>
+            `
+        </div>
+        <div>
+            `
+        </div>
+        <div>
+            `
+        </div>
+        
     </div>
   )
 }

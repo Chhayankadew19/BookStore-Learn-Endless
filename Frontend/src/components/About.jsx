@@ -3,9 +3,11 @@ import React from 'react'
 function About() {
     return (
         <>
-            <div className='max-w-screen-2xl mt-16 md:mt-32   container mx-auto md:px-20 px-4'>
-                <h1 className='mt-4 text-center items-center justify-center text-5xl '> About!</h1>
-                <p className='mt-4 text-center items-center justify-center '>
+            <div className='max-w-screen-2xl  mt-16 md:mt-32  m container mx-auto md:px-20 px-4'>
+                <h1 className='mt-4 mb-10 text-center items-center justify-center text-5xl '> About!</h1>
+                <p className='mt-4 mb-22 text-center items-center justify-center '>
+
+                    <div>
                     Welcome to <span className='text-pink-500'>BookStore-Learn-Endless
                     </span> — your cozy corner of the literary world.
 
@@ -25,16 +27,26 @@ function About() {
 
                     Support for indie authors and publishers
 
-                    Reading isn’t just a hobby — it’s a journey. 
+                    Reading isn’t just a hobby — it’s a journey.
                     And we're here to turn every page with you.
                     <br />
- <br /> <br /> <br /> <br />
-                    Happy reading!
-                     <br />
-                    The <span className='text-pink-500'>BookStore-Learn-Endless
-                    </span> <br /> 
-                    By &nbsp;<span className='text-pink-500'>Chhayanka Dewangan
-                    </span> 
+                       </div>
+                    <br />
+
+                    
+             
+                    <br /> <br /> <br /> <br />
+                    
+                 
+                    <div className='mt-10 mb-9'>
+                        Happy reading!
+                           <br />
+                         The <span className='text-pink-500'>BookStore-Learn-Endless
+                    </span> <br />
+                    By &nbsp;<span className='text-pink-500 '>Chhayanka Dewangan
+                    </span>
+                    </div>
+                   
                 </p>
             </div>
         </>
