@@ -4,6 +4,8 @@ import Courses from "./courses/Courses"
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Signup from "./components/Signup"
 import Contacts from "./contacts/Contacts"
+import Abouts from "./abouts/Abouts"
+
 
 function App() { 
   return (
@@ -14,6 +16,10 @@ function App() {
           <Route path="/course" element={<Courses/>}></Route>
           <Route path="/signup" element={<Signup/>}></Route>
           <Route path="/contact" element={<Contacts/>}></Route>
+          <Route path="/about" element={<Abouts/>}></Route>
+
+      
+
 
 
       </Routes>
