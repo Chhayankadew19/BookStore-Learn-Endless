@@ -1,0 +1,34 @@
+Aim: Developing a full stack bookstore!!
+
+Need: React,Tailwind,Express,NOdejs,Mongo 
+
+Day1:Steps-[]
+1.Create a folder bookstore make folders named Frontend and Backend on it
+2.On frontend run cmd: npm create vite@latest .
+3.npm i and npm run dev 
+4.go Tailwind site  install Tailwind using :" npm install -D tailwindcss@3 postcss autoprefixer >> npx tailwindcss init -p "(v-3)
+
+
+Day2:
+1.for the creation of navbar using DaisyUi.. (v-4)import but use jo chl jye better
+2.Craete Navbar and adjusting required things!!
+
+Day3:
+1.setting images for banner
+2.footer creation
+3.as navbar is fixed while scrolling shadow must appear for this,use hook(usestate)!!
+meaning when scrolling chnages would occur.
+4.create list.json and create freebook .. filter free books in list and avaliable them in that.
+5.crete a card in free book but i need scroller width for that use::: react slick-website!! --- install by :npm install react-slick --save
+npm install slick-carousel --save
+
+Day4:
+1.Craete a card component and make use of map()in freebook such that to transfer data from parent to child use props.
+Props allow ,components to be dynamic and flexible once they receive different data and render accordingly.
+Parent: freebook and child:cards
+
+2.create courses add in course and add course in app!
+
+3.Implement dark and light functionality -- use hook
+
+
