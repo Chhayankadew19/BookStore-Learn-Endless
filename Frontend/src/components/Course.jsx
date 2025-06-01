@@ -11,7 +11,7 @@ function Course() {
   useEffect(()=>{
     const getBook=async()=>{
       try{
-        const res=await axios.get("https://bookstore-learn-endless.onrender.com");
+        const res=await axios.get("https://bookstore-learn-endless.onrender.com/book");
         console.log(res.data);
         setBook(res.data);
       }catch(error){
