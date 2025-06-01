@@ -26,18 +26,25 @@ try{
 } catch (error) {   
     console.log("Error:",error);
 }
+
 //definig  routes
 app.use("/book",bookRoute);
 app.use("/user",userRoute);
 
 //deployment
-// if(process.env.NODE_ENV==="production"){
-//     const dirpath=path.resolve();
-//     app.use(express.static("Frontend/dist"));
-//     app.get("*",(req,res)=>{
-//         res.sendFile(path.resolve(dirpath,"Frontend","dist","index.html"));
-//     })
-// }
+
+if(process.env.NODE_ENV === "production"){
+    const dirpath=path.resolve();
+    app.use(express.static("Frontend/dist"));
+    app.get("*",(req,res)=>{
+        res.sendFile(path.resolve(dirpath,"Frontend","dist","index.html"));
+    })
+}
+
+// app.use(express.static(path.join(__dirname,"../Frontend/dist")));
+// application.get('*',(req,res)=>{
+//     res.sendFile(path.join(__dirname,'../Frontend/dist/index.html'));
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`)
